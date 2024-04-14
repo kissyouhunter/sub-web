@@ -36,7 +36,7 @@
                     style="width: 100%"
                     v-model="form.customBackend"
                     :fetch-suggestions="backendSearch"
-                    placeholder="meta支持vless和hy，clash不支持"
+                    placeholder="meta支持vless和hy"
                   >
                     <el-button slot="append" @click="gotoGayhub" icon="el-icon-link">前往项目仓库</el-button>
                   </el-autocomplete>
@@ -296,7 +296,7 @@ export default {
           ClashR: "clashr",
           Surge2: "surge&ver=2",
         },
-        backendOptions: [{ value: "https://clash.991231.xyz/sub?" }, { value: "https://meta.991231.xyz/sub?" }],
+        backendOptions: [{ value: "https://meta.zgpo.top/sub?" }],
         remoteConfig: [
           {
             label: "ACL4SSR",
